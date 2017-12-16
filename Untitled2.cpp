@@ -1,0 +1,543 @@
+ #include<iostream>
+using namespace std ; 
+int main()
+{
+	float math,eng,phy,ch,ur,ps,is,bio;
+	string mathc,engc,phyc,chc,urc,psc,isc,bioc;
+	string mathg,engg,phyg,chg,urg,psg,isg,biog;
+	cout<<"Enter Marks of obtained marks of math from 100"<<endl;
+	cin>>math;
+	 
+	 	if(math>= 90 && math<=100)
+	 	{
+	 		cout<<"Grade A ";
+	 				if(math>=90 && math<=95)
+	 					{ cout<<"A-"<<endl;
+						 }else if(math>=96 && math<=100){
+						 	cout<<"A+"<<endl;
+						 }
+						 
+		 } 
+		 
+		else  if(math>= 80 && math<=89)
+	 	{
+	 		cout<<"Grade B ";
+	 				if(math>=85 && math<=89)
+	 					{ cout<<"B+"<<endl;
+						 }else if(math>=80 && math<=84){
+						 	cout<<"B-"<<endl;
+						 }
+		 } 
+		 else  if(math>= 70 && math<=79)
+	 	{
+	 		cout<<"Grade C ";
+	 				if(math>=75 && math<=79)
+	 					{ cout<<"C+"<<endl;
+						 }else if(math>=70 && math<=74){
+						 	cout<<"C-"<<endl;
+						 }
+					}
+						 
+		  else  if(math>= 60 && math<=69)
+	 	{
+	 		cout<<"Grade D ";
+	 				if(math>=65 && math<=69)
+	 					{ cout<<"D+"<<endl;
+						 }else if(math>=60 && math<=64){
+						 	cout<<"D-"<<endl;
+						 }
+}
+ 		 else  if(math>= 0 && math<=59)
+	 	{
+	 		cout<<"Grade F "<<endl;
+	 				}
+		 if(math>=95 && math<=100)
+	 					{ cout<<"Classification 1:1"<<"--First  Class First Division--"<<endl;
+	 					
+		 } 	else if(math>=85 && math<=94){
+		  							cout<<"Classification 1:2"<<"--First Class Seound Division--"<<endl;
+								  }
+        else if(math>=75 && math<=84){
+		  							cout<<"Classification 2:1"<<"--First  Class First Division--"<<endl;
+								  }
+								    else if(math>=65 && math<=74){
+		  							cout<<"Classification 2:2"<<"--Seound  Class Seound Division--"<<endl;
+								  }
+  else if(math>=60 && math<=64){
+		  							cout<<"Classification 3:1"<<"--Third  Class Third Division--"<<endl;
+								  }	 
+								  				
+	 				cout<<"Enter your Grade for Confirmation"<<endl;
+	 				cin>>mathg;
+	 				cout<<"Enter your classification for confirmation"<<endl;
+	 				cin>>mathc;
+	cout<<"Enter Marks of obtained marks of ENGLISH	 from 100"<<endl;
+	cin>>eng;
+	 
+	 	if(eng>= 90 && eng<=100)
+	 	{
+	 		cout<<"Grade A ";
+	 				if(eng>=90 && eng<=95)
+	 					{ cout<<"A-"<<endl;
+						 }else if(eng>=96 && eng<=100){
+						 	cout<<"A+"<<endl;
+						 }
+		 } 
+		 
+		else  if(eng>= 80 && eng<=89)
+	 	{
+	 		cout<<"Grade B ";
+	 				if(eng>=85 && eng<=89)
+	 					{ cout<<"B+"<<endl;
+						 }else if(eng>=80 && eng<=84){
+						 	cout<<"B-"<<endl;
+						 }
+		 } 
+		 else  if(eng>= 70 && eng<=79)
+	 	{
+	 		cout<<"Grade C ";
+	 				if(eng>=75 && eng<=79)
+	 					{ cout<<"C+"<<endl;
+						 }else if(eng>=70 && eng<=74){
+						 	cout<<"C-"<<endl;
+						 }
+					}
+						 
+		  else  if(eng>= 60 && eng<=69)
+	 	{
+	 		cout<<"Grade D ";
+	 				if(eng>=65 && eng<=69)
+	 					{ cout<<"D+"<<endl;
+						 }else if(eng>=60 && eng<=64){
+						 	cout<<"D-"<<endl;
+						 }
+}
+ 		 else  if(eng>= 0 && eng<=59)
+	 	{
+	 		cout<<"Grade F "<<endl;
+	 				}
+	 						 if(eng>=95 && eng<=100)
+	 					{ cout<<"Classification 1:1"<<"Class First Division--"<<endl;
+	 					
+		 } 	else if(eng>=85 && eng<=94){
+		  							cout<<"Classification 1:2"<<"--First Class Seound Division--"<<endl;
+								  }
+        else if(eng>=75 && eng<=84){
+		  							cout<<"Classification 2:1"<<"--Secound  Class First Division--"<<endl;
+								  }
+								    else if(eng>=65 && eng<=74){
+		  							cout<<"Classification 2:2"<<"--Seound  Class Seound Division--"<<endl;
+								  }
+  else if(eng>=60 && eng<=64){
+		  							cout<<"Classification 3:1"<<"--Third  Class Third Division--"<<endl;
+								  }
+								  	cout<<"Enter your Grade for Confirmation"<<endl;
+	 				cin>>engg;
+	 				cout<<"Enter your classification for confirmation"<<endl;
+	 				cin>>engc;
+	 				
+	 cout<<"Enter Marks of obtained marks of Physics from 100"<<endl;
+	cin>>phy;
+	 
+	 	if(phy>= 90 && phy<=100)
+	 	{
+	 		cout<<"Grade A ";
+	 				if(phy>=90 && phy<=95)
+	 					{ cout<<"A-"<<endl;
+						 }else if(phy>=96 && phy<=100){
+						 	cout<<"A+"<<endl;
+						 }
+		 } 
+		 
+		else  if(phy>= 80 && phy<=89)
+	 	{
+	 		cout<<"Grade B ";
+	 				if(phy>=85 && phy<=89)
+	 					{ cout<<"B+"<<endl;
+						 }else if(phy>=80 && phy<=84){
+						 	cout<<"B-"<<endl;
+						 }
+		 } 
+		 else  if(phy>= 70 && phy<=79)
+	 	{
+	 		cout<<"Grade C ";
+	 				if(phy>=75 && phy<=79)
+	 					{ cout<<"C+"<<endl;
+						 }else if(phy>=70 && phy<=74){
+						 	cout<<"C-"<<endl;
+						 }
+					}
+						 
+		  else  if(phy>= 60 && phy<=69)
+	 	{
+	 		cout<<"Grade D ";
+	 				if(phy>=65 && phy<=69)
+	 					{ cout<<"D+"<<endl;
+						 }else if(phy>=60 && phy<=64){
+						 	cout<<"D-"<<endl;
+						 }
+}
+ 		 else  if(phy>= 0 && phy<=59)
+	 	{
+	 		cout<<"Grade F "<<endl;
+	 				}
+	 						 if(phy>=95 && phy<=100)
+	 					{ cout<<"Classification 1:1"<<"--First  Class First Division--"<<endl;
+	 					
+		 } 	else if(phy>=85 && phy<=94){
+		  							cout<<"Classification 1:2"<<"--First Class Seound Division--"<<endl;
+								  }
+        else if(phy>=75 && phy<=84){
+		  							cout<<"Classification 2:1"<<"--Secound Class First Division--"<<endl;
+								  }
+								    else if(phy>=65 && phy<=74){
+		  							cout<<"Classification 2:2"<<"--Secound Class Seound Division--"<<endl;
+								  }
+  else if(phy>=60 && phy<=64){
+		  							cout<<"Classification 3:1"<<"--Third Class First Division--"<<endl;
+								  }
+								  cout<<"Enter your Grade for Confirmation"<<endl;
+	 				cin>>phyg;
+	 				cout<<"Enter your classification for confirmation"<<endl;
+	 				cin>>phyc;
+			cout<<"Enter Marks of obtained marks of Chemistry from 100"<<endl;
+	cin>>ch;
+	 
+	 	if(ch>= 90 && ch<=100)
+	 	{
+	 		cout<<"Grade A ";
+	 				if(ch>=90 && ch<=95)
+	 					{ cout<<"A-"<<endl;
+						 }else if(ch>=96 && ch<=100){
+						 	cout<<"A+"<<endl;
+						 }
+		 } 
+		 
+		else  if(ch>= 80 && ch<=89)
+	 	{
+	 		cout<<"Grade B ";
+	 				if(ch>=85 && ch<=89)
+	 					{ cout<<"B+"<<endl;
+						 }else if(ch>=80 && ch<=84){
+						 	cout<<"B-"<<endl;
+						 }
+		 } 
+		 else  if(ch>= 70 && ch<=79)
+	 	{
+	 		cout<<"Grade C ";
+	 				if(ch>=75 && ch<=79)
+	 					{ cout<<"C+"<<endl;
+						 }else if(ch>=70 && ch<=74){
+						 	cout<<"C-"<<endl;
+						 }
+					}
+						 
+		  else  if(ch>= 60 && ch<=69)
+	 	{
+	 		cout<<"Grade D ";
+	 				if(ch>=65 && ch<=69)
+	 					{ cout<<"D+"<<endl;
+						 }else if(ch>=60 && ch<=64){
+						 	cout<<"D-"<<endl;
+						 }
+}
+ 		 else  if(ch>= 0 && ch<=59)
+	 	{
+	 		cout<<"Grade F ";
+	 				}
+	 				if(ch>=95 && ch<=100)
+	 					{ cout<<"Classification 1:1"<<"--First Class first Division--"<<endl;
+	 					
+		 } 	else if(ch>=85 && ch<=94){
+		  							cout<<"Classification 1:2"<<"--First Class Seound Division--"<<endl;
+								  }
+        else if(ch>=75 && ch<=84){
+		  							cout<<"Classification 2:1"<<"--Secound  Class first Division--"<<endl;
+								  }
+								    else if(ch>=65 && ch<=74){
+		  							cout<<"Classification 2:2"<<"--Secound  Class Secound Division--"<<endl;
+								  }
+  else if(ch>=60 && ch<=64){
+		  							cout<<"Classification 3:1"<<"--Third  Class first Division--"<<endl;
+								  }
+								  	cout<<"Enter your Grade for Confirmation"<<endl;
+	 				cin>>chg;
+	 				cout<<"Enter your classification for confirmation"<<endl;
+	 				cin>>chc;
+	cout<<"Enter Marks of obtained marks of Urdu from 100"<<endl;
+	cin>>ur;
+		
+	 
+	 	if(ur>= 90 && ur<=100)
+	 	{
+	 		cout<<"Grade A ";
+	 				if(ur>=90 && ur<=95)
+	 					{ cout<<"A-"<<endl;
+						 }else if(ur>=96 && ur<=100){
+						 	cout<<"A+"<<endl;
+						 }
+		 } 
+		 
+		else  if(ur>= 80 && ur<=89)
+	 	{
+	 		cout<<"Grade B ";
+	 				if(ur>=85 && ur<=89)
+	 					{ cout<<"B+"<<endl;
+						 }else if(ur>=80 && ur<=84){
+						 	cout<<"B-"<<endl;
+						 }
+		 } 
+		 else  if(ur>= 70 && ur<=79)
+	 	{
+	 		cout<<"Grade C ";
+	 				if(ur>=75 && ur<=79)
+	 					{ cout<<"C+"<<endl;
+						 }else if(ur>=70 && ur<=74){
+						 	cout<<"C-"<<endl;
+						 }
+					}
+						 
+		  else  if(ur>= 60 && ur<=69)
+	 	{
+	 		cout<<"Grade D ";
+	 				if(ur>=65 && ur<=69)
+	 					{ cout<<"D+"<<endl;
+						 }else if(ur>=60 && ur<=64){
+						 	cout<<"D-"<<endl;
+						 }
+}
+ 		 else  if(ur>= 0 && ur<=59)
+	 	{
+	 		cout<<"Grade F "<<endl;
+	 				}
+	 				if(ur>=95 && ur<=100)
+	 					{ cout<<"Classification 1:1"<<"--First Class first Division--"<<endl;
+	 					
+		 } 	else if(ur>=85 && ur<=94){
+		  							cout<<"Classification 1:2"<<"--First Class Seound Division--"<<endl;
+								  }
+        else if(ur>=75 && ur<=84){
+		  							cout<<"Classification 2:1"<<"--Secound  Class first Division--"<<endl;
+								  }
+								    else if(ur>=65 && ur<=74){
+		  							cout<<"Classification 2:2"<<"--Secound  Class Secound Division--"<<endl;
+								  }
+  else if(ur>=60 && ur<=64){
+		  							cout<<"Classification 3:1"<<"--Third  Class first Division--"<<endl;
+								  }
+								  	cout<<"Enter your Grade for Confirmation"<<endl;
+	 				cin>>urg;
+	 				cout<<"Enter your classification for confirmation"<<endl;
+	 				cin>>urc;
+ cout<<"Enter Marks of obtained marks of Pak Studies from 100"<<endl;
+	cin>>ps;
+	 
+	 	if(ps>= 90 && ps<=100)
+	 	{
+	 		cout<<"Grade A ";
+	 				if(ps>=90 && ps<=95)
+	 					{ cout<<"A-"<<endl;
+						 }else if(ps>=96 && ps<=100){
+						 	cout<<"A+"<<endl;
+						 }
+		 } 
+		 
+		else  if(ps>= 80 && ps<=89)
+	 	{
+	 		cout<<"Grade B ";
+	 				if(ps>=85 && ps<=89)
+	 					{ cout<<"B+"<<endl;
+						 }else if(ps>=80 && ps<=84){
+						 	cout<<"B-"<<endl;
+						 }
+		 } 
+		 else  if(ps>= 70 && ps<=79)
+	 	{
+	 		cout<<"Grade C ";
+	 				if(ps>=75 && ps<=79)
+	 					{ cout<<"C+"<<endl;
+						 }else if(ps>=70 && ps<=74){
+						 	cout<<"C-"<<endl;
+						 }
+					}
+						 
+		  else  if(ps>= 60 && ps<=69)
+	 	{
+	 		cout<<"Grade D ";
+	 				if(ps>=65 && ps<=69)
+	 					{ cout<<"D+"<<endl;
+						 }else if(ps>=60 && ps<=64){
+						 	cout<<"D-"<<endl;
+						 }
+}
+ 		 else  if(ps>= 0 && ps<=59)
+	 	{
+	 		cout<<"Grade F "<<endl;
+	 				}
+	 				if(ps>=95 && ps<=100)
+	 					{ cout<<"Classification 1:1"<<"--First Class first Division--"<<endl;
+	 					
+		 } 	else if(ps>=85 && ps<=94){
+		  							cout<<"Classification 1:2"<<"--First Class Seound Division--"<<endl;
+								  }
+        else if(ps>=75 && ps<=84){
+		  							cout<<"Classification 2:1"<<"--First  Class First Division--"<<endl;
+								  }
+								    else if(ps>=65 && ps<=74){
+		  							cout<<"Classification 2:2"<<"--Secound  Class Secound Division--"<<endl;
+								  }
+  else if(ps>=60 && ps<=64){
+		  							cout<<"Classification 3:1"<<"--Third  Class first Division--"<<endl;
+								  }
+								  	cout<<"Enter your Grade for Confirmation"<<endl;
+	 				cin>>psg;
+	 				cout<<"Enter your classification for confirmation"<<endl;
+	 				cin>>psc;
+			cout<<"Enter Marks of obtained marks of Islamiat from 100"<<endl;
+	cin>>is;
+	 
+	 	if(is>= 90 && is<=100)
+	 	{
+	 		cout<<"Grade A ";
+	 				if(is>=90 && is<=95)
+	 					{ cout<<"A-"<<endl;
+						 }else if(is>=96 && is<=100){
+						 	cout<<"A+"<<endl;
+						 }
+		 } 
+		 
+		else  if(is>= 80 && is<=89)
+	 	{
+	 		cout<<"Grade B ";
+	 				if(is>=85 && is<=89)
+	 					{ cout<<"B+"<<endl;
+						 }else if(is>=80 && is<=84){
+						 	cout<<"B-"<<endl;
+						 }
+		 } 
+		 else  if(is>= 70 && is<=79)
+	 	{
+	 		cout<<"Grade C ";
+	 				if(is>=75 && math<=79)
+	 					{ cout<<"C+"<<endl;
+						 }else if(is>=70 && is<=74){
+						 	cout<<"C-"<<endl;
+						 }
+					}
+						 
+		  else  if(is>= 60 && is<=69)
+	 	{
+	 		cout<<"Grade D ";
+	 				if(is>=65 && is<=69)
+	 					{ cout<<"D+"<<endl;
+						 }else if(is>=60 && is<=64){
+						 	cout<<"D-"<<endl;
+						 }
+}
+ 		 else  if(is>= 0 && is<=59)
+	 	{
+	 		cout<<"Grade F "<<endl;
+	 				}
+	 				if(is>=95 && is<=100)
+	 					{ cout<<"Classification 1:1"<<"--First  Class First Division--"<<endl;
+	 					
+		 } 	else if(is>=85 && is<=94){
+		  							cout<<"Classification 1:2" <<"--First Class Seound Division--"<<endl;
+								  }
+        else if(is>=75 && is<=84){
+		  							cout<<"Classification 2:1"<<"--First  Class First Division--"<<endl;
+								  }
+								    else if(is>=65 && is<=74){
+		  							cout<<"Classification 2:2"<<"--Seound  Class Seound Division--"<<endl;
+								  }
+  else if(is>=60 && is<=64){
+		  							cout<<"Classification 3:1"<<"--Third  Class first Division--"<<endl;
+								  }
+					 		cout<<"Enter your Grade for Confirmation"<<endl;
+	 				cin>>isg;
+	 				cout<<"Enter your classification for confirmation"<<endl;
+	 				cin>>isc;
+	cout<<"Enter Marks of obtained marks of Biology from 100"<<endl;
+	cin>>bio;
+	 
+	 	if(bio>= 90 && bio<=100)
+	 	{
+	 		cout<<"Grade A ";
+	 				if(bio>=90 && bio<=95)
+	 					{ cout<<"A-"<<endl;
+						 }else if(bio>=96 && bio<=100){
+						 	cout<<"A+"<<endl;
+						 }
+		 } 
+		 
+		else  if(bio>= 80 && bio<=89)
+	 	{
+	 		cout<<"Grade B ";
+	 				if(bio>=85 && bio<=89)
+	 					{ cout<<"B+"<<endl;
+						 }else if(bio>=80 && bio<=84){
+						 	cout<<"B-"<<endl;
+						 }
+		 } 
+		 else  if(bio>= 70 && bio<=79)
+	 	{
+	 		cout<<"Grade C ";
+	 				if(bio>=75 && bio<=79)
+	 					{ cout<<"C+"<<endl;
+						 }else if(bio>=70 && bio<=74){
+						 	cout<<"C-"<<endl;
+						 }
+					}
+						 
+		  else  if(bio>= 60 && bio<=69)
+	 	{
+	 		cout<<"Grade D ";
+	 				if(bio>=65 && bio<=69)
+	 					{ cout<<"D+"<<endl;
+						 }else if(bio>=60 && bio<=64){
+						 	cout<<"D-"<<endl;
+						 }
+}
+ 		 else  if(bio>= 0 && bio<=59)
+	 	{
+	 		cout<<"Grade F "<<endl;
+	 				}
+	 				if(bio>=95 && bio<=100)
+	 					{ cout<<"Classification 1:1"<<endl;
+	 					
+		 } 	else if(bio>=85 && bio<=94){
+		  							cout<<"Classification 1:2"<<endl;
+								  }
+        else if(bio>=75 && bio<=84){
+		  							cout<<"Classification 2:1"<<endl;
+								  }
+								    else if(bio>=65 && bio<=74){
+		  							cout<<"Classification 2:2"<<endl;
+								  }
+  else if(bio>=60 && bio<=64){
+		  							cout<<"Classification 3:1"<<endl;
+								  }
+								  	cout<<"Enter your Grade for Confirmation"<<endl;
+	 				cin>>biog;
+	 				cout<<"Enter your classification for confirmation"<<endl;
+	 				cin>>bioc;
+	 											float total = 	math+eng+phy+ch+ur+ps+is+bio;
+												 
+												
+												 
+												 cout<<"   Subjects         "<<"        	"<<"     Marks  "<<"      "<<"   Grade"<<endl; 
+												 cout<<"    Bio  			"<<"  |  	"<<math <<"       |   "<<mathg<<endl;	
+												  cout<<"    Bio  			"<<"  |  	"<<eng <<"       |   "<<engg<<endl;	
+												 	 cout<<"    Urdu  			"<<"  |  	"<<phy<<"       |   "<<phyg<<endl;
+												 cout<<"    Chem 			"<<"  |  	"<<ch  <<"       |   "<<chg<<endl;
+												 cout<<"    Urdu  			"<<"  |  	"<<ur  <<"       |   "<<urg<<endl;
+												 cout<<"    PST  			"<<"  |  	"<<ps  <<"       |   "<<psg<<endl;
+												 cout<<"    Isl  			"<<"  |  	"<<is  <<"       |   "<<isg<<endl;
+												 cout<<"    Bio  			"<<"  |  	"<<bio <<"       |   "<<biog<<endl;	
+cout<<"          Total marks     "<<"   =   "<<total<<"/   800 " ;
+cout<<"          Degree          "<<"   =   "<<"BSCS";
+
+}
+
+
+
