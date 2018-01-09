@@ -1,0 +1,34 @@
+
+#include<iostream>
+using namespace std;
+
+main() {
+	
+	char country, province;
+	
+	cout << "Are you from Pakistan? \nY/N" << endl;
+	cin >> country;
+	
+	switch(country){
+		case 'Y':
+		case 'y':
+			cout << "Are you from Punjab?\nY/N" << endl;
+			cin >> province;
+			if (province == 'N' || province == 'n'){
+				cout << "Are you from KPK?\nY/N" << endl;
+				cin >> province;
+			} cout << "Are you from Sindh?\nY/N" << endl;
+				cin >> province;
+			if(province == 'N' || province == 'n'){
+				cout << "Are you from Balochistan?\nY/N" << endl;
+				cin >> province;
+			}
+			break;
+			
+		case 'N':
+		case 'n':
+			cout << "Sorry you are not Pakistani" << endl;
+	}
+	return 0;
+	
+	}
