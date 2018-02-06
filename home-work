@@ -1,0 +1,4 @@
+Home work tasks:
+1- using functions write a C++ program which should ask for your name and find number of vowels in your name as well as print vowel letters from your name.
+
+2- using function write a C++ program, which should take two inputs and analyze, if both numbers are even it should print product, if both odd it should print division of both numbers, if even and odd it should print sum of both numbers.
