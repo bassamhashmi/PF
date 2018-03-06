@@ -1,0 +1,68 @@
+#include <iostream>
+using namespace std;
+
+int addition (int a, int b)
+{
+  int r;
+  r = a + b;
+  return r;
+}
+
+int subtraction (int a, int b)
+{
+	int r;
+	r = a - b;
+	return r;
+}
+
+int multiplication (int a, int b)
+{
+	int r;
+	r = a * b;
+	return r;
+}
+
+int division (int a, int b)
+{
+	int r;
+	r = a / b;
+	return r;
+}
+
+int main ()
+{
+  int a, b, z;
+  char o;
+  	cout << "First Value: ";
+	cin >> a;
+	cout << "Second Value: ";
+	cin >> b;
+	cout << "Please select operation from: \n +,-,*,/ ";
+	cin >> o;
+	cout << "\n\n\n";
+	switch(o){
+		case '+':
+			z = addition (a,b);
+			break;
+		case '-':
+			z = subtraction (a,b);
+			break;
+		case '*':
+			z = multiplication (a,b);
+			break;
+		case '/':
+			z = division (a,b);
+			break;
+		default:
+			cout << "Invalid Selection... \ Program terminated..." << endl;
+			return 0;
+	}
+  
+  cout << a << endl;
+  cout << b << endl;
+  cout << "Operation you selected: " << o << endl;
+  cout << "Answer: " << z << endl;
+  
+  return 0;
+
+}
